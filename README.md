@@ -1,2 +1,2 @@
 # simple_boot
-This is a simple gradle Spring Boot project
+This is a simple Gradle Spring Boot project
