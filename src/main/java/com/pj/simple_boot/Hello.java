@@ -6,9 +6,18 @@ public class Hello {
 	 private String hello = "world";
 	    private String foo = "bar";
 	    
+	    
+	    public Hello() {}
+	    
+	    public Hello(String hello, String foo) {
+	    	setHello(hello);
+	    	setFoo(foo);
+	    }
+	    
 	    public String getHello() {
 	        return hello;
 	    }
+	    	    
 	    public void setHello(String hello) {
 	        this.hello = hello;
 	    }
